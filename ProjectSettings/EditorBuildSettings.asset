@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0.unity
+    guid: ef1442fc285602e4484886a229cac07e
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: 29716c2126d4e7840a426426b96f0d74
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: 32fd0d90941ddd141a9fda91b2a7cb0c
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: 824237448e0f6e244a21369b88fac4ec
+  - enabled: 1
+    path: Assets/Scenes/4.unity
+    guid: ab079a94019d1d74fa7f2cfa895234d3
+  - enabled: 1
+    path: Assets/Scenes/5(maze).unity
+    guid: 5e917056630802641972f583c2bc9c18
+  - enabled: 1
+    path: Assets/Scenes/7.unity
+    guid: f9004303480386f47bad67c47cbfd212
+  - enabled: 1
+    path: Assets/Scenes/8.unity
+    guid: ed8d6d1b4c8214041a3f6e085c841d7d
+  - enabled: 1
+    path: Assets/Scenes/9(puzzle).unity
+    guid: c27230889960ae241bfd7d93b936cadf
+  - enabled: 1
+    path: Assets/Scenes/11.unity
+    guid: c9d4df458e742ef4b92a93d59ea6eefa
+  - enabled: 1
+    path: Assets/Scenes/14.unity
+    guid: 6bcf7b0bb39bb03459238fd3260864a0
+  - enabled: 1
+    path: Assets/Scenes/15.unity
+    guid: f88bd97f19568e14b89769cf6b6bef99
+  - enabled: 1
+    path: Assets/Scenes/16(puzzle).unity
+    guid: 1ed4afac411533f4788507f3e69d5992
+  - enabled: 1
+    path: Assets/Scenes/18.unity
+    guid: 2ebf467f82550ae42b765e0ee3e5d9ff
+  - enabled: 1
+    path: Assets/Scenes/19.unity
+    guid: 7806e29ade944c24a928aac0c73b1498
+  - enabled: 1
+    path: Assets/Scenes/21.unity
+    guid: c41b3c640f8742f469a313c0c3aa9266
+  - enabled: 1
+    path: Assets/Scenes/22.unity
+    guid: cb0b1b8f53ee6314d916542fdd8042d3
+  - enabled: 1
+    path: Assets/Scenes/23.unity
+    guid: ee16ba4dbf27def4ebd968880b9fbefb
+  m_configObjects: {}
