@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Target
   - Next
+  - Hedef
   layers:
   - Default
   - TransparentFX

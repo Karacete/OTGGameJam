@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement2 : MonoBehaviour
 {
     private float horizontalMove;
     private Rigidbody2D rb;
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        //catDistance = Vector2.Distance(gameObject.transform.position, target.transform.position);
+        catDistance = Vector2.Distance(gameObject.transform.position, target.transform.position);
         if (Input.GetKey(KeyCode.D))
         {
             sr.flipX = false;
