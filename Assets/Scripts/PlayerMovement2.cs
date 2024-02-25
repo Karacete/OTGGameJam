@@ -9,6 +9,7 @@ public class PlayerMovement2 : MonoBehaviour
 {
     private float horizontalMove;
     private Rigidbody2D rb;
+    [SerializeField]
     public int walkSpeed;
     public int jumpSpeed;
     private SpriteRenderer sr;

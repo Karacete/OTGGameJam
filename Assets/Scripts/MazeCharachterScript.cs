@@ -12,7 +12,7 @@ public class MazeCharachterScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        speed = 200;
+        speed = 300;
     }
     void Update()
     {

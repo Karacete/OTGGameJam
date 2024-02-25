@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class yonetici : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class yonetici : MonoBehaviour
 
         if(yerlestirilen_parca == toplam_puzzle)
         {
-            Debug.Log("Sonraki bolume gec");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 

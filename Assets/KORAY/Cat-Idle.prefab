@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3066647175273888315}
   - component: {fileID: 6247907467782913246}
   - component: {fileID: 7763112157903459406}
+  - component: {fileID: 6664512791627590622}
   m_Layer: 0
   m_Name: Cat-Idle
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1193388614, guid: db733f50b3f2f334092e5efcc17b4916, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -180,3 +181,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6664512791627590622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5747877050174084620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d48fe45908c1cd49b4161ccd7c3543e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 150
+  jumpSpeed: 150
+  meow: {fileID: 0}
+  catPurring: {fileID: 0}
+  interact: {fileID: 0}
+  animator: {fileID: 0}

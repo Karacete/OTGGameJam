@@ -8,7 +8,9 @@ public class PlayerMovement : MonoBehaviour
 {
     private float horizontalMove;
     private Rigidbody2D rb;
+    [SerializeField]
     private int walkSpeed;
+    [SerializeField]
     private int jumpSpeed;
     private SpriteRenderer sr;
     private bool isJump;
@@ -28,8 +30,6 @@ public class PlayerMovement : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         target = GameObject.FindWithTag("Hedef");
         sr.flipX = false;
-        walkSpeed = 200;
-        jumpSpeed = 300;
         isJump = false;
     }
     private void FixedUpdate()
@@ -39,8 +39,6 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log("HorizontalMove: " + horizontalMove);
-        Debug.Log("CatDistance: " + catDistance);
         catDistance = Vector2.Distance(gameObject.transform.position, target.transform.position);
         
         catchMovement();
@@ -48,7 +46,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && !isJump )
         {
             rb.AddForce(new Vector2(0, jumpSpeed));
-            Debug.Log(jumpSpeed);
             animator.Play("CatJump01");
             isJump = true;
         }
@@ -98,7 +95,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (horizontalMove > 0)
         {
-            Debug.Log("D");
             sr.flipX = false;
             // animator.Play("CatWalking");
             animator.SetBool("isMoving", true);
